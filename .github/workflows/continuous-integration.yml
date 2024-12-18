@@ -20,8 +20,8 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install -r requirements.txt
+        pip install -r hello_world/requirements.txt
 
     - name: Run Tests
       run: |
-        python manage.py runserver
+        python hello_world/manage.py runserver
